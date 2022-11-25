@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+button {
+	font: inherit;
+	color: white;
+	background: inherit;
+	cursor: pointer;
+	border: 0;
+}
+
+li {
+	list-style: none;
+}
