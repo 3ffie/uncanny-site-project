@@ -1,5 +1,5 @@
 :root {
-	--background: #0000;
+	--background: rgb(0, 0, 0);
 	--font-color: white;
 	--font-color-hover: rgb(234, 255, 0);
 	--font-size-header: 1.5rem;

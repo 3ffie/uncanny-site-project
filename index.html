@@ -25,7 +25,7 @@
 		</div>
 		
 		<header>
-			<button class="header__button-one">MENU</button>
+			<button id="header__button" class="header__button-one">MENU</button>
 			
 			<nav class="header__navigation">
 				<ul>
@@ -35,20 +35,40 @@
 				</ul>
 			</nav>
 
-			<button class="header__button-two">ABOUT US</button>
 		</header>
+		<!--<button class="header__button-two">ABOUT US</button>-->
 
 		<!--section on frontpage-->
 		<section class="featured">
 			<div class="featured__text">
 				<h1 class="featured__header"><a href="./christmas-horror.html"> 5 HORROR MOVIES THAT WILL GET YOU INTO A CHILLING HOLIDAY SPIRIT</a></h1>
-				<p class="featured__paragraph"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore ipsum beatae rerum, provident architecto totam. Dolores nisi dolor ducimus officia, deserunt in id ea nesciunt, exercitationem commodi expedita et eum.</p>
+				<p class="featured__paragraph"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore ipsum beatae rerum, provident architecto totam. Dolores nisi dolor ducimus officia, deserunt in id ea nesciunt, exercitationem commodi expedita et eum.</p>
 			</div>
 			<img src="./assets/skull-with-santa.jpg" alt="picture of skull christmas ornament" class="featured__img">
 		</section>
-
-	
-
+		<!--Slideshow starts-->
+		<main>
+			<div class="slideshow__container">
+				<!--Buttons-->
+				<div class="slideshow__buttons">
+					<button class="slideshow__button slideshow__button--previous"> Previous </button>
+					<button class="slideshow__button slideshow__button--next"> Next </button>
+				</div>
+				<!--images start here-->
+				<div class="slideshow__tracks">
+					<figure>
+						<img class="slideshow__img" src="./assets/krampus.jpg" alt="slideshow image of krampus">
+						<figcaption class="slideshow__caption">bla bla bla bla bla </figcaption>
+					</figure>
+				
+					<figure>
+						<img class="slideshow__img" src="./assets/krampus.jpg" alt="slideshow image of cats">
+						<figcaption class="slideshow__caption">bla bla bla bla bla </figcaption>
+					</figure>
+					<!--SETT INTERVALL FOR Å FÅ DEN TIL Å GÅ UATOMATISK. -->
+				</div>
+			</div>
+		</main>
 		<footer>
 			Copyright @ The Uncanny
 		</footer>

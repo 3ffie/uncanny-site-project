@@ -1,4 +1,8 @@
 export default function Header() {
+	/**
+	 * @todo make a funtion for the 'about us' button
+	 * 
+	 */
 	
 	let navigationVisible = false;
 	
@@ -24,9 +28,11 @@ export default function Header() {
 	/*render */
 	function renderHTML() {
 		if (navigationVisible === true) {
-			headerNavigation.classList.add('header__navigation--visible');
+			headerNavigation.classList.add('header__navigation--visible'),
+			headerMenuButton.innerHTML = 'X';
 		} else {
-			headerNavigation.classList.remove('header__navigation--visible');
+			headerNavigation.classList.remove('header__navigation--visible'),
+			headerMenuButton.innerHTML = 'MENU';
 		}
 	}
 }

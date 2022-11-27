@@ -1,0 +1,19 @@
+main {
+	height: 100vh;
+}
+
+.slideshow__container {
+	display: block;
+	position: absolute;
+	left: 30%;
+	align-items: center;
+	width: 50vw;
+	height: 50vh;
+	background-color: blue;
+}
+
+/*Slideshow buttons*/
+
+
+	
+
