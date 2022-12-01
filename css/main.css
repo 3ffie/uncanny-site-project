@@ -3,6 +3,9 @@
 @import './reset.css';
 @import './variables.css';
 
-@import './modules/header.css';
+@import './modules/banner.css';
+@import './modules/article.css';
 @import './modules/featured.css';
+@import './modules/footer.css';
+@import './modules/header.css';
 @import './modules/slideshow.css';

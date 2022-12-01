@@ -1,6 +1,7 @@
 export default function Header() {
 	/**
 	 * @todo make a funtion for the 'about us' button
+	 * add alot of comments to everything
 	 * 
 	 */
 	
@@ -25,7 +26,7 @@ export default function Header() {
 		navigationVisible = !navigationVisible;
 	}
 
-	/*render */
+	/*render*/
 	function renderHTML() {
 		if (navigationVisible === true) {
 			headerNavigation.classList.add('header__navigation--visible'),

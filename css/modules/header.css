@@ -1,48 +1,47 @@
 header {
 	display: flex;
 	justify-content: space-between;
-	margin: 10px 10px;
-	padding: 1rem;
-	position: sticky;
-	top: 2px;
+	top: 0;
+	min-width: 100vh;
+	padding: 1.5rem;
 	background-color: var(--background);
 }
 
+.header__button-one, 
+.header__button-two,
 .header__logo {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: var(--font-color);
-}
-
-.header__button-one {
 	font-family: 'Amarante', cursive;
 	font-size: var(--font-size-header);
 	color: var(--font-color-hover);
 }
 
+.header__logo {
+	color: var(--font-color);
+	font-size: 2em;
+}
+
 .header__navigation {
-	display: flex;
+	display: inline-flex;
 	display: none;
 	margin: 5px 5px;
 	gap: 1rem;
-	transition: 0.5s;
 }
 
+/**/
 .header__navigation ul {
 	display: flex;
-	flex-basis: flex-end;
 	margin: 5px 5px;
 	gap: 50px;
 }
 
 .header__navigation--visible {
-	display: flex;
+	display: block;
 	position: inherit;
 	text-align: center;
 }
 
-/*added effects to the list items*/
+/*This pseudo element is used to style the list elements so that a underline is diplayed 
+under the text when you hover over it*/
 .header__navigation ul li::after {
 	width: 0%;
 	height: 3px;
@@ -51,7 +50,7 @@ header {
 	content: '';
 	transition: 1s;
 }
-
+/*this styling element is added so that the underline stretches under the whole width of the text */
 .header__navigation ul li:hover::after {
 	width: 100%;
 }

@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
 		<title>The Uncanny</title>
 
 		<link rel="stylesheet" href="./css/main.css">
@@ -16,17 +17,23 @@
 -->
 <!--insporation from https://creepycatalog.com/-->
 	<body>
-		<div class="header__logo">
-			<figure>
-				<a href="./index.html">
-					<img src="./assets/uncanny-logo.png" height="180px" width="250px" alt="uncanny logo">
-				</a>
-			</figure>
-		</div>
-		
-		<header>
-			<button id="header__button" class="header__button-one">MENU</button>
+		<!-- 
 			
+			B__E--M 
+		
+			modules/header.css
+
+			header
+			header__button
+			header__navigation
+			header__navigation--visible
+		-->
+		<header class="header">
+			<button id="header__button" class="header__button-one">MENU</button>
+			<div class="header__logo">
+				<a href="./index.html">THE UNCANNY</a>
+			</div>
+			<button id="header__button" class="header__button-two">ABOUT US</button>
 			<nav class="header__navigation">
 				<ul>
 					<li><a href="./christmas-horror.html">Christmas Horror</a></li>
@@ -34,18 +41,77 @@
 					<li><a href="">The Classics</a></li>
 				</ul>
 			</nav>
-
 		</header>
-		<!--<button class="header__button-two">ABOUT US</button>-->
 
-		<!--section on frontpage-->
-		<section class="featured">
-			<div class="featured__text">
-				<h1 class="featured__header"><a href="./christmas-horror.html"> 5 HORROR MOVIES THAT WILL GET YOU INTO A CHILLING HOLIDAY SPIRIT</a></h1>
-				<p class="featured__paragraph"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore ipsum beatae rerum, provident architecto totam. Dolores nisi dolor ducimus officia, deserunt in id ea nesciunt, exercitationem commodi expedita et eum.</p>
+		<div class="banner">
+			<div class="banner__container">
+				<h1 class="banner__header">The site for everything uncanny</h1>
+				<p class="banner__paragraph">Your digital magazine covering television and cinema with a primary focus on horror</p>
+				<a href="" class="banner__button">Subscribe to find out more</a>
 			</div>
-			<img src="./assets/skull-with-santa.jpg" alt="picture of skull christmas ornament" class="featured__img">
+		</div>
+
+		<section class="article">
+			<div class="article__container--one">
+				<h1 class="article__header"><a href="christmas-horror.html">5 HORROR MOVIES THAT WILL GET YOU INTO A CHILLING HOLIDAY SPIRIT</a></h1>
+				<p class="article__paragraph">Count down the days until Christmas with 25 of the very best Christmas horror movies ever made!</p>
+			</div>
+			<div class="article__container--two">
+				<div class="article__img"></div>
+			</div>
 		</section>
+		
+		<div class="feature">
+			<div class="feature__box">
+				<a href="" class="feature__link">9+ horror movies set in New York</a>
+				<p class="feature__dates">November 9, 2022</p>
+				<figure class="feature__img">
+					<img src="./assets/uncanny-logo.png" alt="blablabla">
+				</figure>
+			</div>
+
+			<div class="feature__box">
+				<a href="" class="feature__link">9+ horror movies set in New York</a>
+				<p class="feature__dates">November 9, 2022</p>
+				<figure class="feature__img">
+					<img src="./assets/uncanny-logo.png" alt="blablabla">
+				</figure>
+			</div>
+
+			<div class="feature__box">
+				<a href="" class="feature__link">9+ horror movies set in New York</a>
+				<p class="feature__dates">November 9, 2022</p>
+				<figure class="feature__img">
+					<img src="./assets/uncanny-logo.png" alt="blablabla">
+				</figure>
+			</div>
+
+			<div class="feature__box">
+				<a href="" class="feature__link">9+ horror movies set in New York</a>
+				<p class="feature__dates">November 9, 2022</p>
+				<figure class="feature__img">
+					<img src="./assets/uncanny-logo.png" alt="blablabla">
+				</figure>
+			</div>
+
+			<div class="feature__box">
+				<a href="" class="feature__link">9+ horror movies set in New York</a>
+				<p class="feature__dates">November 9, 2022</p>
+				<figure class="feature__img">
+					<img src="./assets/uncanny-logo.png" alt="blablabla">
+				</figure>
+			</div>
+			
+			<div class="feature__box">
+				<a href="" class="feature__link">9+ horror movies set in New York</a>
+				<p class="feature__dates">November 9, 2022</p>
+				<figure class="feature__img">
+					<img src="./assets/uncanny-logo.png" alt="blablabla">
+				</figure>
+			</div>
+
+		</div>
+
 		<!--Slideshow starts-->
 		<main>
 			<div class="slideshow__container">
@@ -56,14 +122,14 @@
 				</div>
 				<!--images start here-->
 				<div class="slideshow__tracks">
-					<figure>
+					<figure class="slideshow__track slideshow__track--active">
 						<img class="slideshow__img" src="./assets/krampus.jpg" alt="slideshow image of krampus">
-						<figcaption class="slideshow__caption">bla bla bla bla bla </figcaption>
+						<figcaption class="slideshow__text"><a href="./christmas-horror.html">Christmas Horror</a></figcaption>
 					</figure>
 				
-					<figure>
+					<figure class="slideshow__track">
 						<img class="slideshow__img" src="./assets/krampus.jpg" alt="slideshow image of cats">
-						<figcaption class="slideshow__caption">bla bla bla bla bla </figcaption>
+						<figcaption class="slideshow__text"> <a href="./christmas-horror.html">Christmas Horror horrorrr</a> </figcaption>
 					</figure>
 					<!--SETT INTERVALL FOR Å FÅ DEN TIL Å GÅ UATOMATISK. -->
 				</div>

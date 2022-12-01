@@ -1,5 +1,7 @@
+/* these are the styles that are applied to all elements blablabla */
+
 body {
-	background-color: black;
+	background-color: var(--background-secondary-color);
 	color: white;
 }
 
@@ -11,10 +13,4 @@ a {
 a:hover {
 	color: var(--font-color-hover);
 	list-style: none;
-}
-
-footer {
-	display: flex;
-	justify-content: center;
-	padding: 10px;
 }
