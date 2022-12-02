@@ -1,13 +1,19 @@
 .feature {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: minmax(200px, auto);
+	grid-template-rows: minmax(300px, auto);
 	border: 2px solid white;
 	margin: 100px 150px;
 	justify-content: center;
 }
 
+.feature__box {
+	display: block;
+	width: 500px;
+	height: 500px;
+}
+
 .feature__img img {
 	width: 200px;
-	height: 20%;
+	height: 200px;
 }
