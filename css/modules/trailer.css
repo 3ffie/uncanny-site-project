@@ -1,8 +1,36 @@
 .trailer {
-	width: 1000px;
 	margin: 150px;
+	background-image: url(../../assets/texture___film.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
-iframe {
-	
+.trailer__header {
+	text-transform: uppercase;
+	text-align: center;
+	position: relative;
+	background-color: black;
+	top: 100px;
+}
+
+.trailer__container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+}
+
+.trailer__container iframe {
+	position: absolute;
+	top: 0%;
+	bottom: 50%;
+	height: 100%;
+	width: 100%;
+	left: 50%;
+	transform: translate(-50%, 50%);
+}
+.trailer__title {
+	text-transform: uppercase;
+	text-align: center;
 }
