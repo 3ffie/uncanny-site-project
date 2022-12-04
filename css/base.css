@@ -5,6 +5,12 @@ body {
 	color: white;
 }
 
+/* main {
+	margin-inline-start: 3.75vw;
+	margin-inline-end: 3.75vw;
+	max-inline-size: 54rem, 64rem; 
+}
+*/
 a {
 	color: var(--font-color);
 	text-decoration: none;

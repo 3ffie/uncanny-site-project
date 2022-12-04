@@ -36,100 +36,131 @@
 			</div>
 
 			<button id="header__button" class="header__button-two">ABOUT US</button>
-
-			<nav class="header__navigation">
-				<ul>
-					<li><a href="./christmas-horror.html">Christmas Horror</a></li>
-					<li><a href="">Uncanny Territory</a></li>
-					<li><a href="">The Classics</a></li>
-				</ul>
-			</nav>
 		</header>
-		<!--the banner first -->
-		<div class="banner">
-			<div class="banner__container">
-				<h1 class="banner__header">The site for everything uncanny</h1>
-				<p class="banner__paragraph">Your digital magazine covering television and cinema with a primary focus on horror</p>
-				<a href="" class="banner__button">Subscribe to find out more</a>
-			</div>
-		</div>
-		<!--an article section where the current article of the week will be shown-->
-		<section class="article">
-			<div class="article__container--one">
-				<h1 class="article__header"><a href="christmas-horror.html">5 HORROR MOVIES THAT WILL GET YOU INTO A CHILLING HOLIDAY SPIRIT</a></h1>
-				<p class="article__paragraph">Count down the days until Christmas with 25 of the very best Christmas horror movies ever made!</p>
-				<a href=""> Effie Kumi</a>
-			</div>
-			<!--add a link to author-->
-
-			<div class="article__container--two">
-				<div class="article__img"></div>
-			</div>
-		</section>
-
-		<!--featured section where several articles will be displayed-->
-		<div class="feature">
-			FEATURE
-			<div class="feature__box">
-				<figure class="feature__img">
-					<img src="./assets/cats.jpg" alt="blablabla">
-				</figure>
-				<a href="" class="feature__link">9+ horror movies set in New York</a>
-				<p class="feature__dates">November 9, 2022</p>
-			</div>
-
-			<div class="feature__box">
-				<a href="" class="feature__link">9+ horror movies set in New York</a>
-				<p class="feature__dates">November 9, 2022</p>
-				<figure class="feature__img">
-					<img src="./assets/cats.jpg" alt="blablabla">
-				</figure>
-			</div>
-
-			<div class="feature__box">
-				<a href="" class="feature__link">9+ horror movies set in New York</a>
-				<p class="feature__dates">November 9, 2022</p>
-				<figure class="feature__img">
-					<img src="./assets/uncanny-logo.png" alt="blablabla">
-				</figure>
-			</div>
-
-			<div class="feature__box">
-				<a href="" class="feature__link">9+ horror movies set in New York</a>
-				<p class="feature__dates">November 9, 2022</p>
-				<figure class="feature__img">
-					<img src="./assets/uncanny-logo.png" alt="blablabla">
-				</figure>
-			</div>
-
-			<div class="feature__box">
-				<a href="" class="feature__link">9+ horror movies set in New York</a>
-				<p class="feature__dates">November 9, 2022</p>
-				<figure class="feature__img">
-					<img src="./assets/uncanny-logo.png" alt="blablabla">
-				</figure>
-			</div>
-
-			<div class="feature__box">
-				<a href="" class="feature__link">9+ horror movies set in New York</a>
-				<p class="feature__dates">November 9, 2022</p>
-				<figure class="feature__img">
-					<img src="./assets/uncanny-logo.png" alt="blablabla">
-				</figure>
-			</div>
-		</div>
-
-		<!--trailer of the week section-->
-		<div class="trailer">
-			<h1 class="trailer__header">TRAILER OF THE WEEK</h1>
-			<div class="trailer__container">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/In8fuzj3gck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</div>
-			<span class="trailer__title">Nope 2022</span>
-		</div>
 		
-		<footer>
-			Copyright @ The Uncanny
-		</footer>
+		<main>
+			<navigation class="navigation">
+				<ul class="navigation__links">
+					<li><a href="./christmas-horror.html">Christmas Horror</a></li>
+						<li><a href="">Uncanny Territory</a></li>
+						<li><a href="">The Classics</a></li>
+					</ul>
+					<!--in this div i want to put a video that will run automatically beside the navigation bar.
+						the autoplay and loop attribute will  so that -->
+					<div class="navigation__video">
+						<video autoplay loop class="navigation__video--source">
+							<source src="./assets/videoplayback.mp4" type="video/mp4">
+						</video>
+					</div>
+			</navigation>
+
+			<!--the banner first -->
+			<div class="banner">
+				<div class="banner__container">
+					<h1 class="banner__header">The site for everything uncanny</h1>
+					<p class="banner__paragraph">Your digital magazine covering television and cinema with a primary focus on horror</p>
+					<a href="" class="banner__button">Subscribe to find out more</a>
+				</div>
+			</div>
+			<!--an article section where the current article of the week will be shown-->
+			<section class="article">
+				<div class="article__container--one">
+					<h1 class="article__header"><a href="christmas-horror.html">5 HORROR MOVIES THAT WILL GET YOU INTO A CHILLING HOLIDAY SPIRIT</a></h1>
+					<p class="article__paragraph">Count down the days until Christmas with 25 of the very best Christmas horror movies ever made!</p>
+					<a href="./authors/effie.html"> Effie Kumi</a>
+				</div>
+				<!--add a link to author-->
+				<div class="article__container--two">
+					<div class="article__img"></div>
+				</div>
+			</section>
+
+			<!--featured section where several articles will be displayed-->
+			<div class="feature__header">
+				<h2>FEATURE</h2>
+			</div>
+
+			<div class="feature">
+
+				<div class="feature__box">
+					<figure class="feature__img">
+						<img src="./assets/feature-images/detective.png" alt="picture of a detective">
+					</figure>
+					
+					<div class="feature__text">
+						<a href="" class="feature__text--links">35+ Detective Movies</a>
+						<p class="feature__text--dates">Desember 2, 2022</p>
+					</div>
+				</div>
+				
+				<div class="feature__box">
+					<figure class="feature__img">
+						<img src="./assets/feature-images/raw-movie.png" alt="picture of movie Raw">
+					</figure>
+					
+					<div class="feature__text">
+						<a href="" class="feature__text--links">Best Horror Movies on Netflix Right Now (December 2022)</a>
+						<p class="feature__text--dates">Desember 3, 2022</p>
+					</div>
+				</div>
+				
+				<div class="feature__box">
+					<figure class="feature__img">
+						<img src="./assets/feature-images/fight-club.png" alt="fight club movie">
+					</figure>
+					
+					<div class="feature__text">
+						<a href="" class="feature__text--links">19+ Famous Movies About Split Personalities</a>
+						<p class="feature__text--dates">Desember 3, 2022</p>
+					</div>
+				</div>
+				
+				<div class="feature__box">
+					<figure class="feature__img">
+						<img src="./assets/feature-images/missing.png" alt="missing 2021 movie">
+					</figure>
+					
+					<div class="feature__text">
+						<a href="" class="feature__text--links">The True Crimes that Inspired the Disturbing Japanese Thriller "Missing" (2021)</a>
+						<p class="feature__text--dates">Desember 2, 2022</p>
+					</div>
+				</div>
+
+				<div class="feature__box">
+					<figure class="feature__img">
+						<img src="./assets/feature-images/terrefier-2.png" alt="Terrifier 2022 movie">
+					</figure>
+					
+					<div class="feature__text">
+						<a href="" class="feature__text--links">People Are Literally Throwing up While Watching "Terrifier 2" (2022)</a>
+						<p class="feature__text--dates">Desember 4, 2022</p>
+					</div>
+				</div>
+				
+				<div class="feature__box">
+					<figure class="feature__img">
+						<img src="./assets/feature-images/pearl-2022.png" alt="pearl 2022 movie">
+					</figure>
+					
+					<div class="feature__text">
+						<a href="" class="feature__text--links">25 "Good For Her" Horror Movies</a>
+						<p class="feature__text--dates">Desember 3, 2022</p>
+					</div>
+				</div>
+			</div>
+
+			<!--trailer of the week section-->
+			<div class="trailer">
+				<h1 class="trailer__header">TRAILER OF THE WEEK</h1>
+				<div class="trailer__container">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/In8fuzj3gck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				<p class="trailer__title">Nope 2022</p>
+			</div>
+			
+			<footer>
+				Copyright @ The Uncanny
+			</footer>
+		</main>
 	</body>
 </html>

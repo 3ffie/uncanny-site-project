@@ -1,2 +1,5 @@
-/* 'Amarante', cursive;*/
+/* 'Amarante', cursive;, font for the header buttons and logo*/
 @import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+
+/* 'Oswald', sans-serif;, font for the article headers*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
