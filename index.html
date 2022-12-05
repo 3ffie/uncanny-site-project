@@ -9,25 +9,15 @@
 		<script type="module" src="./js/main.js"></script>
 	</head>
 <!--
-	legge til logo og sentrere den. 
-	når vi klikker på den skal vi til hjemmesiden.
-
-	legge til mer elementer i body. 
-
+	- add more elements to main section
+	- get the"about us" button functional 
+	- remowe the slideshow
+	- add a randomizer button for horror sub genres
+	- add media query to everything
+	- remove psuedo elements
 -->
-<!--insporation from https://creepycatalog.com/-->
+<!--inspiration to site take from https://creepycatalog.com/-->
 	<body>
-		<!-- 
-			
-			B__E--M 
-		
-			modules/header.css
-
-			header
-			header__button
-			header__navigation
-			header__navigation--visible
-		-->
 		<header class="header">
 			<button id="header__button" class="header__button-one">MENU</button>
 
@@ -69,19 +59,17 @@
 					<p class="article__paragraph">Count down the days until Christmas with 25 of the very best Christmas horror movies ever made!</p>
 					<a href="./authors/effie.html"> Effie Kumi</a>
 				</div>
-				<!--add a link to author-->
+			
 				<div class="article__container--two">
 					<div class="article__img"></div>
 				</div>
 			</section>
-
 			<!--featured section where several articles will be displayed-->
 			<div class="feature__header">
 				<h2>FEATURE</h2>
 			</div>
 
 			<div class="feature">
-
 				<div class="feature__box">
 					<figure class="feature__img">
 						<img src="./assets/feature-images/detective.png" alt="picture of a detective">
@@ -148,13 +136,14 @@
 					</div>
 				</div>
 			</div>
-
 			<!--trailer of the week section-->
 			<div class="trailer">
 				<h1 class="trailer__header">TRAILER OF THE WEEK</h1>
+
 				<div class="trailer__container">
 					<iframe width="560" height="315" src="https://www.youtube.com/embed/In8fuzj3gck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
+
 				<p class="trailer__title">Nope 2022</p>
 			</div>
 			

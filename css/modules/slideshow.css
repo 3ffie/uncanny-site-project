@@ -31,7 +31,7 @@ main {
 	height: 100%;
 }
 
-/* funker ikke :(*/
+/* does not work*/
 .slideshow__img:hover {
 	opacity: 50%;
 }

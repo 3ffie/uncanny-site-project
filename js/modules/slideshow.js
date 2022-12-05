@@ -1,8 +1,6 @@
 export default function Slideshow() {
 	/**
-	 * @TODO add  funtion previous button and next button
-	 *  
-	 * 
+	 * @todo add funtion previous button and next button
 	 */
 
 	const slideshowButtonNext = document.querySelector('.slideshow__button--next');
