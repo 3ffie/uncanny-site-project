@@ -1,18 +1,30 @@
 .trailer {
-	margin: 150px;
-	background-image: url(../../assets/texture___film.jpg);
+	background-image: url(../../assets/film-roll.png);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+	margin-top: 3rem;
+	width: 100%;
+	height: 100%;
 }
 
 .trailer__header {
+	display: inline-block;
+	left: 50%;
+	transform: translate(-50%);
 	text-transform: uppercase;
 	text-align: center;
 	position: relative;
-	background-color: black;
-	top: 100px;
+	top: 50px;
+	background: var(--background);
 	font-family: var(--font-family-header);
+	font-size: var(--font-size-header);
+}
+
+.trailer__wrapper {
+	max-width: 800px;
+	padding: 3rem;
+	left: 30%;
 }
 
 .trailer__container {
@@ -24,17 +36,20 @@
 
 .trailer__container iframe {
 	position: absolute;
-	top: 0%;
-	bottom: 50%;
-	height: 50%;
-	width: 50%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	
+	height: 100%;
+	width: 100%;
 	left: 50%;
-	transform: translate(-50%, 50%);
+	transform: translate(-50%, 0%);
 }
+
 .trailer__title {
 	text-transform: uppercase;
 	text-align: center;
-	align-items: initial;
-	left: 50%;
-	top: 0;
+	align-items: center;
+	background-color: var(--background);
 }

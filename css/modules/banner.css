@@ -1,27 +1,21 @@
 body {
-	width: 100vw;
+	height: 100vh;
 }
 
 .banner {
 	background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(../../assets/skull-with-santa.jpg);
-	height: 90vh;
-	width: 100vw;
+	height: 100%;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	position: relative;
-	margin: 0px 0px;
-
 }
 
 .banner__container {
 	text-align: center;
-	height: auto;
-	width: auto;
 	top: 50%;
 	right: 50%;
 	transform: translate(50%, -50%);
-	position: absolute;
+	position: relative;
 }
 
 .banner__header {
@@ -32,17 +26,17 @@ body {
 }
 
 .banner__paragraph {
-	font-size: 1.1em;
-	margin-bottom: 1em;
+	font-size: 1.1rem;
+	margin-bottom: 1rem;
 }
 
 .banner__button {
 	display: inline-block;
 	margin: 0.5rem;
 	padding: 1rem 1rem;
-	font-size: 1em;
+	font-size: 1rem;
 	background-color: black;
-	border:	4px solid black;
+	border: 4px solid black;
 	text-align: center;
 	text-decoration: inherit;
 	border-radius: 20px;
@@ -54,9 +48,9 @@ body {
 		top: 50%;
 	}
 	.banner__header {
-		font-size: 1.5em;
+		font-size: 1.5rem;
 	}
 	.banner__paragraph {
-		font-size: 0.9em;
+		font-size: 1rem;
 	}
 }

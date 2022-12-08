@@ -1,22 +1,31 @@
 /* these are the styles that are added to the whole html */
-
 body {
 	background-color: var(--background-secondary-color);
 	color: white;
+	font-size: 20px;
 }
 
-/* main {
-	margin-inline-start: 3.75vw;
-	margin-inline-end: 3.75vw;
-	max-inline-size: 54rem, 64rem; 
+main {
+	margin: 150px 100px;
 }
-*/
+
 a {
 	color: var(--font-color);
 	text-decoration: none;
-
 }
+
 a:hover {
 	color: var(--font-color-hover);
 	list-style: none;
+}
+
+@media screen and (max-width: 780px) {
+	
+	main {
+		display: flex;
+		flex-direction: column;
+		/*display: grid;
+		grid-template-columns: auto;*/
+		margin: var(--body-margin-s);
+	}
 }
