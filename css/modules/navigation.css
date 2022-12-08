@@ -43,7 +43,10 @@
 .navigation ul li a:hover::after {
 	width: 100%;
 }
-
+/*In order for the video to scale properly, I had to add the correct aspect ratio. 
+It covers the entire page, but ends up minimizing itself when the page is scaled down. 
+Have therefore removed it at the 1024 break point.
+*/
 @media (min-aspect-ratio: 16/9) {
 	.navigation__video--source {
 		width: 100%;

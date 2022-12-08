@@ -24,8 +24,6 @@ a:hover {
 	main {
 		display: flex;
 		flex-direction: column;
-		/*display: grid;
-		grid-template-columns: auto;*/
 		margin: var(--body-margin-s);
 	}
 }

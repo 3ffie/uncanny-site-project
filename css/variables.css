@@ -15,11 +15,6 @@
 	--body-margin: 20px;
 }
 
-/*body.--light-mode {
-	--background: white;
-	--font-color: black;
-}*/
-
 @media screen and (max-width: 780px) {
 	:root {
 		--body-padding-s: 15px;
